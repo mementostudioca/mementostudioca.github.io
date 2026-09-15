@@ -71,7 +71,7 @@
       radial-gradient(500px 380px at 82% 70%, var(--teal-soft) 0%, transparent 70%);
   }
   .hero > *{position:relative}
-  .hero-mark{width:88px;height:auto;margin:0 auto 34px;display:block}
+  .hero-logo{width:min(460px,82%);height:auto;margin:0 auto 6px;display:block;mix-blend-mode:multiply}
   .hero h1{
     font-family:'Cormorant Garamond',serif;font-weight:500;
     font-size:clamp(40px,6vw,68px);line-height:1.12;letter-spacing:.01em;
@@ -298,21 +298,8 @@
 <!-- ============ HERO ============ -->
 <header class="hero" id="top">
   <div class="wrap">
-    <!-- MEMENTO logo mark: heart + play triangle (draft SVG, swap for final logo file) -->
-    <svg class="hero-mark" viewBox="0 0 120 170" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="MEMENTO logo">
-      <!-- heart -->
-      <path d="M60 34 C60 34 40 14 26 14 C14 14 8 23 8 34 C8 48 26 62 60 88 C94 62 112 48 112 34 C112 23 106 14 94 14 C80 14 60 34 60 34 Z"
-            fill="#F2B4C4" stroke="#26211D" stroke-width="6" stroke-linejoin="round"/>
-      <!-- heart highlight -->
-      <path d="M46 26 C46 26 38 19 32 19 C27 19 24 22 24 27 C24 32 30 37 46 49 C40 40 40 32 46 26 Z"
-            fill="#FBF8F3" stroke="none"/>
-      <!-- play triangle -->
-      <path d="M56 108 L56 148 L92 128 Z"
-            fill="#4E9BA8" stroke="#26211D" stroke-width="6" stroke-linejoin="round"/>
-    </svg>
-
-    <div class="hero-brand">MEMENTO</div>
-    <div class="hero-tag">bringing memories to life</div>
+    <!-- MEMENTO logo (final artwork) -->
+    <img class="hero-logo" src="logo.png" alt="MEMENTO — bringing memories to life" width="833" height="471">
 
     <h1>What if your favorite photograph<br>could move?</h1>
     <p class="sub">Turn one meaningful photograph into a short, subtle, living memory — and keep it on a simple frame that just plays. No Wi-Fi. No App. No Subscription. Just turn it on.</p>
