@@ -133,6 +133,9 @@
     font-family:var(--sans);font-size:10px;font-weight:600;
     letter-spacing:.22em;text-transform:uppercase;color:var(--ink-soft);opacity:.55;
   }
+  .ph:has(>img){background:none}
+  .ph:has(>img)::after{content:none}
+  .ph>img{width:100%;height:100%;object-fit:cover;display:block}
 
   /* ---------- philosophy ---------- */
   .philosophy{background:var(--white);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
@@ -149,10 +152,6 @@
   .duo-card{position:relative}
   .duo-ph{aspect-ratio:4/3}
   .duo-ph::after{content:none}
-  .duo-label{
-    position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);
-    font-size:11px;font-weight:600;letter-spacing:.32em;text-transform:uppercase;color:var(--ink-soft);
-  }
   .play-badge{
     position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);
     width:54px;height:54px;border-radius:50%;
@@ -335,11 +334,12 @@
     <h2 class="section-title reveal">Keep the photograph. Bring the moment to life.</h2>
     <div class="duo reveal">
       <div class="duo-card">
-        <div class="ph duo-ph"><span class="duo-label">your photograph</span></div>
+        <div class="ph duo-ph"><img src="assets/dog-still.jpg" alt="Your photograph" loading="lazy"></div>
         <div class="duo-caption">Still.</div>
       </div>
       <div class="duo-card">
         <div class="ph duo-ph">
+          <img src="assets/dog-still.jpg" alt="Your photograph, brought to life" loading="lazy">
           <div class="play-badge"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div>
         </div>
         <div class="duo-caption">Living.</div>
@@ -353,7 +353,7 @@
   <div class="wrap">
     <p class="kicker reveal">The Living Memory Frame</p>
     <p class="frame-quote reveal">No Wi-Fi. No App. No Subscription.<br><em>Just turn it on.</em></p>
-    <div class="ph frame-img reveal"></div>
+    <div class="ph frame-img reveal"><img src="assets/frame-hero.jpg" alt="The Living Memory Frame" loading="lazy"></div>
     <div class="feat-grid">
       <div class="feat reveal">
         <svg class="ico" viewBox="0 0 48 48" fill="none" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><rect x="10" y="14" width="24" height="16" rx="3"/><path d="M34 19h5v8h-5"/><path d="M16 22l4 4 4-4"/></svg>
@@ -386,7 +386,7 @@
     <h2 class="section-title reveal">A living memory, three ways</h2>
     <div class="prod-list">
       <div class="prod-row reveal">
-        <div class="ph prod-ph"></div>
+        <div class="ph prod-ph"><img src="assets/dog-product.jpg" alt="Living Memory" loading="lazy"></div>
         <div>
           <h3>Living Memory</h3>
           <p>Your photograph, brought back to life.</p>
@@ -394,7 +394,7 @@
         <div class="prod-price"><small>from</small>$19 CAD</div>
       </div>
       <div class="prod-row reveal">
-        <div class="ph prod-ph"></div>
+        <div class="ph prod-ph"><img src="assets/frame-product.jpg" alt="The Living Memory Frame" loading="lazy"></div>
         <div>
           <h3>The Living Memory Frame</h3>
           <p>Your animation, in a frame that just plays.</p>
@@ -402,7 +402,7 @@
         <div class="prod-price"><small>from</small>$79 CAD</div>
       </div>
       <div class="prod-row reveal">
-        <div class="ph prod-ph"></div>
+        <div class="ph prod-ph"><img src="assets/gift-box.jpg" alt="The Gift Box" loading="lazy"></div>
         <div>
           <h3>The Gift Box</h3>
           <p>Frame + packaging + card. Ready to hand over.</p>
@@ -462,7 +462,7 @@
     <div class="fmeta">
       <a href="https://www.etsy.com" target="_blank" rel="noopener">Etsy</a> &nbsp;·&nbsp;
       <a href="mailto:hello@memento.example">hello@memento.example</a> &nbsp;·&nbsp;
-      © 2026 MEMENTO
+      © 2026 MEMENTO &nbsp;·&nbsp; <span>preview photography · Unsplash</span>
     </div>
   </div>
 </footer>
