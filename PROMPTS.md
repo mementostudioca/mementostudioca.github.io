@@ -94,21 +94,49 @@ Etsy 最多 10 张 + 1 视频。顺序即上传顺序。
 
 ---
 
-## 6. 视频 Prompt（4 条，核心转化素材）
+## 6. 视频 Prompt（10 条，按渠道分配）
 
-给 Sora/Veo/Runway 类工具，每条 5-10 秒。
+给 Sora/Veo/Runway/Kling 类工具。通用参数：24fps、1080p 起、**生成时不加文字和音乐**（字幕 BGM 后期加）。
+**屏幕合成技巧**：屏幕里的照片先让 AI 生成"一张狗/猫的照片"占位即可，**后期用真照片替换屏幕内容**（CapCut/After Effects 做屏幕合成，比让 AI 一次到位稳得多，也保证双联对比用同一张照片）。
 
-**V1 「Just turn it on」（品牌母视频，最优先拍/生成）**
-> A hand presses the single power button on {PRODUCT} placed on a bedside table; the screen softly lights up with a photo of a golden retriever; within two seconds the dog's tail gives one gentle wag and the dog blinks — subtle, believable, not cartoonish. Camera static, warm dim bedroom light, 8 seconds, shallow depth of field, no text.
+**渠道分配**：
+- V2 → Etsy listing 视频位：1:1，≤15 秒
+- V1/V3/V5/V6/V7/V8/V10 → TikTok/Reels：9:16，7-10 秒
+- V4/V9 → 网站 + 社媒：16:9
+- 每条都留 0.5 秒首尾黑场或静态帧，方便剪
 
-**V2 前后对比（Etsy listing 视频位）**
-> Split attention shot: first a still photograph of a tabby cat on cream card paper on a table, then a dissolve to the same cat on the screen of {PRODUCT}, where the cat slowly blinks and shifts its head a few degrees. Warm window light, static camera, 8 seconds, no text, no sound cues implied.
+**NEGATIVE（视频通用，拼在末尾）**
+> no text, no subtitles, no watermark, no visible logo, no smartphone, no app interface, no Wi-Fi symbol, no fast cuts, no cartoonish motion, no extra fingers, no plastic shine, no over blur
 
-**V3 拆箱送礼**
-> Overhead shot: hands open a sage-green gift box with twine bow on warm cream linen, lift cream tissue to reveal {PRODUCT}, slide out a small cream card. Slow, tender, no faces, soft window light, 8 seconds, no text.
+**V1 「Just turn it on」— 品牌母视频（最优先，9:16 / 8s）**
+> A hand presses the single power button on {PRODUCT} on a bedside table in a dim warm bedroom. The screen softly lights up with a photo of a golden retriever. Within two seconds the dog's tail gives one gentle wag and the dog blinks — subtle, believable, not cartoonish. Static camera with a slow push-in, warm practical lamp light, shallow depth of field, tender and quiet, 8 seconds.
 
-**V4 充电与安放（"忘记它的存在"）**
-> A hand plugs a USB-C cable into the back of {PRODUCT}; the tiny LED indicator glows warm white; the frame is placed on an oak shelf between books; the screen settles into a looping subtle motion of a dog resting its head on a hand. Static camera, warm room, 10 seconds, no text.
+**V2 前后对比 — Etsy listing 视频位（1:1 / 10s）**
+> Close-up: a printed photograph of a tabby cat on cream card paper rests on a wooden table. Slow dissolve into {PRODUCT} on the same table, its screen showing the same cat, which slowly blinks and shifts its head a few degrees. Warm window light, static camera, no hands after the dissolve, 10 seconds.
+
+**V3 拆箱 — Gift Box listing 视频（9:16 / 10s）**
+> Overhead shot of hands opening a sage-green gift box with a twine bow on warm cream linen. Fingers lift cream tissue paper, revealing {PRODUCT} nestled inside, then slide out a small cream card. Slow, tender, no faces, soft window light, 10 seconds.
+
+**V4 充电与安放 — "Just place it. Forget about it"（16:9 / 10s）**
+> A hand plugs a USB-C cable into the back of {PRODUCT}; the tiny LED indicator glows warm white. The frame is carried to an oak shelf between books and set down. The screen settles into a subtle looping motion of a dog resting its head on a person's hand. Static camera, warm afternoon room, 10 seconds.
+
+**V5 宠物 POV — 情感钩子（TikTok，9:16 / 8s）**
+> Low angle at floor level: a golden retriever sits beside a sofa where {PRODUCT} rests on the edge, its screen showing a photo of the same dog. The real dog watches the screen, tail gives one slow wag, ears flick. Warm living room, soft light, intimate and quietly funny, 8 seconds.
+
+**V6 送礼瞬间 — Gift 定位核心（TikTok，9:16 / 10s）**
+> A young woman's hands place the closed sage-green gift box with twine bow into an older woman's hands; the older woman's hands gently close around the box, thumbs brushing the twine. No faces, only hands and the box, warm kitchen background softly blurred, tender, 10 seconds.
+
+**V7 书架循环 — 美学空镜（IG Reels，9:16 / 10s，可无缝 loop）**
+> {PRODUCT} on an oak shelf between cloth-bound books and a small ceramic vase with dried grasses. Morning light slowly shifts across the wall. On the screen, a French bulldog's ears twitch and its eyes blink — the only motion in the frame. Static camera, quiet, warm, 10 seconds, designed to loop seamlessly.
+
+**V8 节点：冬日/圣诞（TikTok，9:16 / 10s）**
+> A cozy winter scene: {PRODUCT} on a windowsill, soft grey light outside, a small candle and a sprig of pine beside it. On the screen, an elderly couple dancing in a kitchen, the man's hat tilting slightly as if caught mid-motion. Warm golden interior, soft, nostalgic, 10 seconds.
+
+**V9 「No app」证明 — 产品力演示（16:9 / 10s）**
+> Wide shot of a calm bright living room. A hand plugs {PRODUCT} into a wall power point with a short USB-C cable; no phone, no app, no other devices anywhere in frame. The screen lights up and settles into a subtle motion of a cat blinking. The hand walks away. Static camera, bright warm daytime light, 10 seconds.
+
+**V10 Remembrance — 静帧情感（TikTok，9:16 / 10s）**
+> A quiet bedside at dusk: {PRODUCT} on the nightstand, screen showing a photo of an elderly dog resting in a sunny spot, the dog's breathing rising and falling — the subtlest possible motion. A hand rests a cup of tea on the table beside it. Deeply quiet, warm low light, 10 seconds.
 
 ---
 
